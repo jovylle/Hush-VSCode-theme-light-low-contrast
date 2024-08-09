@@ -1,6 +1,6 @@
 {
-  "name": "my-custom-light-theme",
-  "displayName": "my custom light theme",
+  "name": "hush-theme-low-contrast",
+  "displayName": "Hush Theme Low Contrast",
   "description": "ajsdaklsjdlkdjaksd",
   "version": "0.0.1",
   "engines": {
@@ -12,10 +12,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "my custom light theme",
+        "label": "Light Low Contrast",
         "uiTheme": "vs",
-        "path": "./themes/my custom light theme-color-theme.json"
+        "path": "./themes/light-low-contrast.json"
       }
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jovylle/Hush-VSCode-theme-light-low-contrast"
   }
 }
